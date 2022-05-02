@@ -7,7 +7,7 @@ buildifier(
 filegroup(
     name = "gazelle",
     srcs = [
-        "//src/client/gazelle",
-        "//src/server/gazelle",
+        "//src/client:gazelle",
+        "//src/server:gazelle",
     ],
 )
