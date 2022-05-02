@@ -1,5 +1,5 @@
 build:
-	bazel build //...
+	bazel build //:all
 
 test:
-	bazel test //...
+	bazel test //:all_tests
